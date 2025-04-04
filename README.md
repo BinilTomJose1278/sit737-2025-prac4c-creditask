@@ -35,6 +35,15 @@ This project is a Dockerized calculator microservice built using **Node.js**, **
 git clone  https://github.com/BinilTomJose1278/sit737-2025-prac5p.git
 cd sit737-2025-prac5p
 
-Step 2: Ensure Docker Is Installed
-Download and install Docker Desktop:
-👉 https://www.docker.com/products/docker-desktop
+
+### Step 2: Ensure Docker Is Installed
+
+Make sure Docker is installed on your system. You can download Docker Desktop from:
+
+👉 [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop)
+
+Check if Docker is installed and running:
+
+```bash
+docker --version
+
