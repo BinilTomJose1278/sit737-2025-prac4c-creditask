@@ -54,15 +54,15 @@ docker-compose up --build
 ```
 This command will:
 
-Build a Docker image using the Dockerfile
+- Build a Docker image using the Dockerfile
 
-Start a container running your calculator app
+- Start a container running your calculator app
 
-Expose it on http://localhost:3000
+- Expose it on http://localhost:3000
 
-Apply a health check to monitor availability
+- Apply a health check to monitor availability
 
-Mount the local logs/ folder to persist logs
+- Mount the local logs/ folder to persist logs
 
 ---
 
@@ -70,16 +70,15 @@ Step 4: Test the Calculator API
 
 You can test the microservice using a browser or Postman.
 
-Available endpoints:
+---
 
-Route	Description	Example
-/add	Addition	/add?num1=10&num2=5
-/subtract	Subtraction	/subtract?num1=10&num2=5
-/multiply	Multiplication	/multiply?num1=10&num2=5
-/divide	Division	/divide?num1=10&num2=2
-/power	Exponentiation	/power?num1=2&num2=3
-/modulo	Modulo	/modulo?num1=10&num2=3
-/sqrt	Square root (only num1)	/sqrt?num1=25
+Step 5 : Push to Github
+After verifying , add to github
+```bash
+git add .
+git commit -m "Added Docker image"
+git push -u origin main
+```
 
 
 
